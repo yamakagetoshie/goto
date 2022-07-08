@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+body {
+    //background-color: #FFD700;
+background-image: url("http://katus-gifani.sakura.ne.jp/img/kabe79.gif");
+    font-family: "MS Gothic";
+    text-align: center;
+}
+
+table td {
+border: 1px solid black;
+padding: 10px 10px;
+background-color: #fff;
+}
+
+/* *********** パンくずリスト *************** */
+/* breadcrumbの個別設定 */
+.breadcrumb_style {
+  background: #FFFF99;
+}
+
+/* *********** 見出し *************** */
+/* titleの個別設定 */
+.title_style{
+background: #FFFFCC;
+}
+
+/* *********** main *************** */
+.main_explanation {
+}
+
+/* main_titleの共通設定 */
+.main_title {
+text-align: left;
+width: 60%;
+height: auto;
+margin: auto;
+padding: 20px 0;
+}
+
+.menu_table {
+}
+
+.manu_image {
+}
+
+.menu_name {
+	display: block;
+    font-size: 1rem;
+    font-weight: bold;
+margin: 10px 0;
+}
+
+.menu_detail {
+font-size: 0.8rem;
+}
+
+.menu_list {
+list-style: disc;
+text-align: left;
+width: 60%;
+height: auto;
+margin: auto;
+padding: 10px 0 20px 80px;
+}
+

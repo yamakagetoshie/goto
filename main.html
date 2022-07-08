@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>台湾料理ごとう</title>
+  <meta name="description" content="札幌にある台湾料理ごとうのサンプルサイトです">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <!-- レスポンシブ対応 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!--==============レイアウトを制御する独自のCSSを読み込み_リンク先は必ず変更すること===============-->
+  <!--normalizeCSS-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--mainCSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <!--LoadingCSS-->
+  <link href="css/loading.css" rel="stylesheet">
+  <link href="css/neon.css" rel="stylesheet">
+  <!--メイン画像ズームアウトCSS-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
+  <!-- ライブラリのcss -->
+  <link rel="stylesheet" type="text/css" href="css/zoomout.css">
+  <!--クリックしたらナビが右から左に出現CSS-->
+  <link rel="stylesheet" type="text/css" href="css/hamburger_nav.css">
+  <!--ページトップリンクCSS-->
+  <link rel="stylesheet" type="text/css" href="css/pagetoplink.css">
+  <!--スライドショーCSS-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+
+
+</head>
+
+<body>
+  <!-- ============== Loading neon　画面 ============== -->
+  <div id="splash">
+    <div id="splash_logo" class="fadeUp">
+      <h1 contenteditable spellcheck="false">台湾料理ごとう</h1>
+    </div>
+  </div>
+
+  <!-- ============== header ==============
+  <header id="header">
+  </header>
+   -->
+
+  <!-- ============== メイン画像ズームアウト ============== -->
+  <!-- 画像リンク編集はzoomout.jsで -->
+  <div class="wrapper">
+    <div id="slider">
+      <h1>台湾料理ごとう</h1>
+    </div>
+  </div>
+
+  <!-- ============== クリックしたらナビが右から左に出現 ============== -->
+  <div class="openbtn1"><span></span><span></span><span></span></div>
+  <nav id="g-nav">
+    <div id="g-nav-list">
+      <ul>
+        <li><a href="#slider">Top</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#shop">Shop Info</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============== メイン ============== -->
+  <main id="main">
+
+    <!-- ============== section1 news  twitterの情報を掲載 ============== -->
+    <section class="news_section">
+      <div id="topics">
+        <h2 class="section_title">Topics</h2>
+        <ul class="news_ul">
+          <!-- newsモジュール1 -->
+          <li>
+            <a class="news_li" href="https://twitter.com/satsukiyama_zoo/status/1542475461628133376?cxt=HHwWgIDQ0dHQ_OcqAAAA">
+              <div class="news_date">
+                <div class="news_mmdd">
+                  06
+                  <span>/</span>
+                  30
+                </div>
+                <div class="news_imagetext">
+                  <!--<img src="https://placehold.jp/660x520.png" class="news_image" alt="news1">-->
+                  <div class="news_text">モルモットによるとうもろこしの皮の奪い合い<br>仲良く食べてね!
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- newsモジュール1 -->
+          <!-- newsモジュール2 -->
+          <li>
+            <a class="news_li" href="XXX">
+              <div class="news_date">
+                <div class="news_mmdd">
+                  04
+                  <span>/</span>
+                  14
+                </div>
+                <div class="news_imagetext">
+                  <!--<img src="https://placehold.jp/660x520.png" class="news_image" alt="news2">-->
+                  <div class="news_text">"テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。2"
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- /newsモジュール2 -->
+          <!-- newsモジュール3 -->
+          <li>
+            <a class="news_li" href="XXX">
+              <div class="news_date">
+                <div class="news_mmdd">
+                  04
+                  <span>/</span>
+                  14
+                </div>
+                <div class="news_imagetext">
+                  <!--<img src="https://placehold.jp/660x520.png" class="news_image" alt="news3">-->
+                  <div class="news_text">"テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。3"
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- newsモジュール3 -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============== section2 menu ============== -->
+    <section id="menu" class="menu_section">
+      <div class="menu_wrap_inner">
+        <div class="wrap_inner_title">
+          <h2 class="section_title">Menu</h2>
+          <div>お店の端的な紹介お店の端的な紹介お店の端的な紹介お店の端的な紹介お店の端的な紹介<br>
+            台湾料理の特徴を記載する台湾料理の特徴を記載する台湾料理の特徴を記載する台湾料理の特徴を記載する
+          </div>
+        </div>
+        <ul class="menu_wrap_ul flex-ul">
+          <!-- menuモジュール1 -->
+          <li class="clearfix menu_wrap_li">
+            <div class="menu_wrap_li_image">
+              <img src="https://placehold.jp/524x410.png" alt="image1">
+            </div>
+            <div class="clearfix">
+              <div class="menu_wrap_li_name">
+                <img src="https://placehold.jp/343x140.png" alt="name1">
+              </div>
+              <div class="menu_wrap_li_text">
+                テキストテキストテキストテキストテキスト
+              </div>
+            </div>
+          </li>
+          <!-- /menuモジュール1 -->
+
+          <!-- menuモジュール2 -->
+          <li class="clearfix menu_wrap_li">
+            <div class="menu_wrap_li_image">
+              <img src="https://placehold.jp/524x410.png" alt="image2">
+            </div>
+            <div class="clearfix">
+              <div class="menu_wrap_li_name">
+                <img src="https://placehold.jp/343x140.png" alt="name2">
+              </div>
+              <div class="menu_wrap_li_text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+            </div>
+
+          </li>
+          <!-- /menuモジュール2 -->
+          <!-- menuモジュール3 -->
+          <li class="clearfix menu_wrap_li">
+            <div class="menu_wrap_li_image">
+              <img src="https://placehold.jp/524x410.png" alt="image3">
+            </div>
+            <div class="clearfix">
+              <div class="menu_wrap_li_name">
+                <img src="https://placehold.jp/343x140.png" alt="name3">
+              </div>
+              <div class="menu_wrap_li_text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+            </div>
+
+          </li>
+          <!-- /menuモジュール3 -->
+          <!-- menuモジュール4 -->
+          <li class="clearfix menu_wrap_li">
+            <div class="menu_wrap_li_image">
+              <img src="https://placehold.jp/524x410.png" alt="image4">
+            </div>
+            <div class="clearfix">
+              <div class="menu_wrap_li_name">
+                <img src="https://placehold.jp/343x140.png" alt="name4">
+              </div>
+              <div class="menu_wrap_li_text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+            </div>
+
+          </li>
+          <!-- /menuモジュール4 -->
+          <!-- menuモジュール5 -->
+          <li class="clearfix menu_wrap_li">
+            <div class="menu_wrap_li_image">
+              <img src="https://placehold.jp/524x410.png" alt="image5">
+            </div>
+            <div class="clearfix">
+              <div class="menu_wrap_li_name">
+                <img src="https://placehold.jp/343x140.png" alt="name5">
+              </div>
+              <div class="menu_wrap_li_text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+            </div>
+
+          </li>
+          <!-- /menuモジュール5 -->
+          <!-- menuモジュール6 -->
+          <li class="clearfix menu_wrap_li">
+            <div class="menu_wrap_li_image">
+              <img src="https://placehold.jp/524x410.png" alt="image6">
+            </div>
+            <div class="clearfix">
+              <div class="menu_wrap_li_name">
+                <img src="https://placehold.jp/343x140.png" alt="name6">
+              </div>
+              <div class="menu_wrap_li_text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </div>
+            </div>
+
+          </li>
+          <!-- /menuモジュール6 -->
+        </ul>
+        <!-- more menu ボタン -->
+        <div class="menu_wrap_btn">
+          <a class="btn flex-btn" href="./roulette/roulette.html" target="_blank">
+            More Menu
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== section3 shopinfo ============== -->
+    <section id="shop" class="shop_section">
+      <div class="wrap_inner_title">
+        <h2 class="section_title">Shop Info</h2>
+      </div>
+
+      <!-- スライダー -->
+      <!-- 画像リンク編集はここで -->
+      <ul class="slider">
+        <li><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/img/img_01.jpg" alt="">
+        </li>
+        <li><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/img/img_02.jpg" alt="">
+        </li>
+        <li><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/img/img_03.jpg" alt="">
+        </li>
+        <li><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/img/img_04.jpg" alt="">
+        </li>
+        <li><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/img/img_05.jpg" alt="">
+        </li>
+        <li><img src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-7/img/img_06.jpg" alt="">
+        </li>
+      </ul>
+
+      <!-- shopinfo詳細 -->
+      <div class="shop_wrap_inner">
+        <div class="shop_text_wrap flex">
+          <div class="shop_text_logo flex-center">
+            <div>
+              <img src="https://placehold.jp/300x300.png" alt="shop_text_logo">
+            </div>
+          </div>
+          <div class="shop_text_text">
+            <div class="shop_text_shopname">台湾料理ごとう</div>
+            <table>
+              <tbody>
+                <tr>
+                  <th>
+                    時間
+                  </th>
+                  <td>
+                    火曜日〜日曜日　祝日営業<br>18:00〜24:00
+                    <p class="bikou">※ただし、営業時間は変更となる場合がございます。<br>最新情報はTopicsおよびSNSにて更新しております。</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    定休日
+                  </th>
+                  <td>
+                    月曜日
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    座席数
+                  </th>
+                  <td>
+                    30席
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    電話
+                  </th>
+                  <td>
+                    011-000-0000
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    住所
+                  </th>
+                  <td>
+                    〒064-0804 北海道札幌市中央区南４条西１丁目　Ｍ・ｓ仲町　1階
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    SNS
+                  </th>
+                  <td>
+                    <a href="XXXX" target="_blank">
+                      <img src="image/instagram_logo.png" alt="instagram">
+                    </a>
+                    <a href="XXXX" target="_blank">
+                      <img src="image/twitter logo.png" alt="twitter">
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="shop_map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182.205429251524!2d141.35708343866781!3d43.05643382772868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2983eb96d6c1%3A0x817a1e3d5810db11!2z5Y-w5rm-5paZ55CG44GU44Go44GG!5e0!3m2!1sja!2sjp!4v1653462680286!5m2!1sja!2sjp"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============== フッター ============== -->
+  <footer id="footer">
+    <div class="footerlogo">
+      <a href="#slider">
+        <img src="https://placehold.jp/300x300.png" alt="shop-logo">
+      </a>
+    </div>
+    <!-- ============== ページトップリンク ============== -->
+    <p id="page-top">
+      <a href="#">
+        <img src="image/toppage_panda.png" alt="page top">
+      </a>
+      Page<br>Top
+    </p>
+    <!-- コピーライト -->
+    <small>&copy; copyright.台湾料理ごとう All Rights Reserved.</small>
+  </footer>
+
+  <!--==============JQuery読み込み===============-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--LoadingJQ_リンク先は必ず変更すること-->
+  <script src="js/loading.js"></script>
+  <!--zoomoutJQ_リンク先は必ず変更すること-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+  <script src="js/zoomout.js"></script>
+  <!--クリックしたらナビが右から左に出現JQ_リンク先は必ず変更すること-->
+  <script src="js/hamburger_nav.js"></script>
+  <!--ページトップリンクJQ-->
+  <script src="js/pagetoplink.js"></script>
+  <!--スライドショーJQ-->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/slideshow.js"></script>
+
+</body>
+
+</html>
