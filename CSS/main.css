@@ -135,6 +135,7 @@ padding-inline-start: 30px;
 
 a {
   text-decoration: none;
+color: #000;
 }
 
 .news_date {
@@ -546,4 +547,10 @@ small {
   background: #333;
   padding: 20px;
   text-align: center;
+}
+
+.command {
+color: #00FF00;
+display: block;
+padding-bottom:10px;
 }

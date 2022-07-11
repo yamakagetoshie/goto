@@ -37,7 +37,9 @@ table td {
     padding: 20px 0;
 }
 
-.menu_table {}
+.menu_table {
+
+}
 
 .manu_image {}
 
@@ -60,3 +62,28 @@ table td {
     margin: auto;
     padding: 10px 0 20px 80px;
 }
+
+@media screen and (max-width: 1024px) {
+/* 1024pxまでの幅の場合に適応される */
+    .menu_table td {
+width: 100%;
+    display: block;
+}
+
+table td {
+    padding: 0;
+margin-bottom: 10px;
+}
+
+.menu_image {
+padding: 10px;
+}
+
+.menu_detail {
+display: block;
+padding: 10px;
+}
+
+
+}
+

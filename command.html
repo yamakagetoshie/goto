@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>台湾料理ごとう隠しページへの扉</title>
+  <meta name="description" content="札幌にある台湾料理ごとうのサンプルサイトです">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <!-- レスポンシブ対応 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!--==============レイアウトを制御する独自のCSSを読み込み_リンク先は必ず変更すること===============-->
+  <!--normalizeCSS-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--mainCSS-->
+  <link rel="stylesheet" href="css/command.css">
+</head>
+
+<body>
+
+  <!-- ============== メイン ============== -->
+  <main id="main">
+ <form action="" id="form1">
+    <div>2022年2月11日に世界最高齢に認定された五月山動物園のウォンバットの名前は？<br>（カタカナでご記入ください）</div>
+    <input id="textBox1" type="text" value="" />
+    <input type="button" value="確定" onclick="onButtonClick();" />
+  </form>
+  <div id="output"></div>
+  </main>
+
+ <!--==============JQuery読み込み===============-->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--LoadingJQ_リンク先は必ず変更すること-->
+  <script src="js/command.js"></script>
+
+</body>
+
+</html>

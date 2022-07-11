@@ -5,19 +5,14 @@ body {
   //background-image: url("");
   font-family: "MS Gothic";
   text-align: center;
+
 }
+
 
 table {
   margin: auto;
 }
 
-/* *********** header *************** */
-header {
-  width: 60%;
-  height: auto;
-  margin: auto;
-
-}
 
 
 /* *********** top *************** */
@@ -41,7 +36,32 @@ header {
   font-size: 1.2rem;
 }
 
-/* *********** navとlist and hover共通設定 *************** */
+@media screen and (max-width: 1024px) {
+/* 768pxまでの幅の場合に適応される */
+    .marquee_style {
+  width: 100%;
+}
+
+.counter_table {
+  font-size: 1.0rem;
+}
+}
+
+/* *********** header *************** */
+header {
+  width: 60%;
+  height: auto;
+  margin: auto;
+
+}
+@media screen and (max-width: 1024px) {
+/* 768pxまでの幅の場合に適応される */
+     header {
+        width: 100%;
+    }
+}
+
+/* navとlist and hover共通設定 */
 ul {
   display: inline-block;
   list-style: none;
@@ -105,6 +125,14 @@ a:hover {
   opacity: 0.5;
   color: white;
 }
+
+@media screen and (max-width: 1024px) {
+/* 768pxまでの幅の場合に適応される */
+     .navigation_style a {
+        font-size: 0.9rem;
+    }
+}
+
 
 /* *********** パンくずリスト *************** */
 /* breadcrumbの共通設定 */
@@ -201,6 +229,26 @@ clear: both;
 
 .footer_nav :last-child li {
   border-right: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+/* 768pxまでの幅の場合に適応される */
+    .footer_nav ul {
+  padding: 0;
+width: 100%;
+}
+
+.footer_nav ul li {
+border-right: 0px;
+  border-bottom: 1px solid #ddd;
+padding-bottom: 5px;
+
+}
+
+.footer_nav ul li a {
+ text-decoration: none;
+}
+
 }
 
 /* *********** main.cssと共通 *************** */
