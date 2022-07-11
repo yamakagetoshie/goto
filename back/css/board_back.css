@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 body {
-    //background-color: #CCFFFF;
-background-image: url("http://katus-gifani.sakura.ne.jp/img/kabe68.gif");
-    font-family: "MS Gothic";
-    text-align: center;
+  //background-color: #CCFFFF;
+  background-image: url("http://katus-gifani.sakura.ne.jp/img/kabe68.gif");
+  font-family: "MS Gothic";
+  text-align: center;
 }
 
 
@@ -17,7 +17,6 @@ background-image: url("http://katus-gifani.sakura.ne.jp/img/kabe68.gif");
 
 /* *********** 見出し *************** */
 /* titleの個別設定 */
-.title_style{
-background: #66FFFF;
+.title_style {
+  background: #66FFFF;
 }
-

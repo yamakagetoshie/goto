@@ -1,50 +1,51 @@
 @charset "utf-8";
 
 body {
-    background-color: #FF3300;
-//background-image: url("");
-    font-family: "MS Gothic";
-    text-align: center;
+  background-color: #FF3300;
+  //background-image: url("");
+  font-family: "MS Gothic";
+  text-align: center;
 }
 
 table {
-    margin: auto;
+  margin: auto;
 }
+
 /* *********** header *************** */
-header{
-width: 60%;
-    height: auto;
-margin: auto;
+header {
+  width: 60%;
+  height: auto;
+  margin: auto;
 
 }
 
 
 /* *********** top *************** */
 .title_marquee {
-    border: 4mm ridge rgba(211, 220, 50, .6);
-    font-size: 4rem;
+  border: 4mm ridge rgba(211, 220, 50, .6);
+  font-size: 4rem;
 
 }
 
 .subtitle_marquee {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* marqueeの共通設定 */
 .marquee_style {
-    width: 60%;
-    height: auto;
+  width: 60%;
+  height: auto;
 }
 
 .counter_table {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 /* *********** navとlist and hover共通設定 *************** */
 ul {
   display: inline-block;
   list-style: none;
-padding-left: 0;
+  padding-left: 0;
 
 }
 
@@ -54,70 +55,72 @@ ul li {
 }
 
 a {
-color: #000;
+  color: #000;
 }
 
 .navigation_style {
-padding:30px 0;
+  padding: 30px 0;
 
 }
 
-.navigation_style ul{
-display: flex;
-	justify-content: center;
+.navigation_style ul {
+  display: flex;
+  justify-content: center;
 
 }
 
 .nav_red {
-  background   : #ff66ff;	
+  background: #ff66ff;
 }
 
 .nav_ore {
-  background   : #ff7f00;
+  background: #ff7f00;
 }
 
 .nav_yell {
-  background   : #ffff1a;
+  background: #ffff1a;
 }
 
 .nav_gree {
-  background   : #66ff66;
+  background: #66ff66;
 }
 
 /* navの共通設定 */
 .nav_setting {
-width        : 180px;
-  height       : 40px;
-display: flex;
+  width: 180px;
+  height: 40px;
+  display: flex;
   justify-content: center;
   align-items: center;
- border-radius : 50%;
+  border-radius: 50%;
 }
 
-.nav_setting a{
-text-decoration: none;
-color: blue;
-font-size: 1rem;
+.nav_setting a {
+  text-decoration: none;
+  color: blue;
+  font-size: 1rem;
 }
 
 a:hover {
-opacity: 0.5;
-color: white;
+  opacity: 0.5;
+  color: white;
 }
 
 /* *********** パンくずリスト *************** */
 /* breadcrumbの共通設定 */
 .breadcrumb {
-  margin:0;
+  margin: 0;
   padding: 1em;
   list-style: none;
   overflow: hidden;
 }
 
 .breadcrumb li {
-  display: inline;/*横に並ぶように*/
+  display: inline;
+  /*横に並ぶように*/
   list-style: none;
-  font-weight: bold;/*太字*/
+  font-weight: bold;
+  /*太字*/
 }
 
 .breadcrumb li:after {
@@ -125,7 +128,7 @@ color: white;
   content: '>';
   padding: 0 0.2em;
   color: #8e8270;
-float: left;
+  float: left;
 }
 
 .breadcrumb li:last-child:after {
@@ -136,8 +139,9 @@ float: left;
   text-decoration: none;
   color: #000;
 }
+
 .breadcrumb li span {
-float: left;
+  float: left;
 }
 
 .breadcrumb li a:hover {
@@ -146,9 +150,9 @@ float: left;
 
 /* *********** 見出し *************** */
 /* titleの共通設定 */
-.title{
-padding: 0.5em 0 0.5em 0.5em;
-text-align: left;
+.title {
+  padding: 0.5em 0 0.5em 0.5em;
+  text-align: left;
 }
 
 /* clearfixいらなかった
@@ -163,11 +167,11 @@ clear: both;
 
 /* sectionのpadding共通設定 */
 .section_style {
-padding:30px 0;
+  padding: 30px 0;
 }
 
 .topics_inner {
-position: relative;
+  position: relative;
 }
 
 .topics_inner li:nth-of-type(1) a:before {
@@ -176,27 +180,27 @@ position: relative;
   top: 0;
   left: 33%;
   font-size: 12px;
-color: #fff;
+  color: #fff;
 }
 
 /* *********** footer *************** */
 .footer_nav ul {
-padding:30px 0;
+  padding: 30px 0;
 }
 
-.footer_nav ul li{
-border-right: 1px solid #ddd;
+.footer_nav ul li {
+  border-right: 1px solid #ddd;
 
 }
 
-.footer_nav ul li a{
-padding:30px 0;
-margin-right: 20px;
-font-size: 1rem;
+.footer_nav ul li a {
+  padding: 30px 0;
+  margin-right: 20px;
+  font-size: 1rem;
 }
 
-.footer_nav :last-child li{
-border-right: 0px;
+.footer_nav :last-child li {
+  border-right: 0px;
 }
 
 /* *********** main.cssと共通 *************** */

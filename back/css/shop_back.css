@@ -1,16 +1,16 @@
 @charset "utf-8";
 
 body {
-    //background-color: #00CC99;
-background-image: url("http://katus-gifani.sakura.ne.jp/img01/kabe80.gif");
-    font-family: "MS Gothic";
-    text-align: center;
+  //background-color: #00CC99;
+  background-image: url("http://katus-gifani.sakura.ne.jp/img01/kabe80.gif");
+  font-family: "MS Gothic";
+  text-align: center;
 }
 
 table td {
-border: 1px solid black;
-padding: 10px 10px;
-background-color: #fff;
+  border: 1px solid black;
+  padding: 10px 10px;
+  background-color: #fff;
 }
 
 /* *********** パンくずリスト *************** */
@@ -21,23 +21,22 @@ background-color: #fff;
 
 /* *********** 見出し *************** */
 /* titleの個別設定 */
-.title_style{
-background: #00FF99;
+.title_style {
+  background: #00FF99;
 }
 
 /* *********** main *************** */
 .shop_name {
-width: 60%;
-height: auto;
-margin: auto;
-padding: 20px 0;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 20px 0;
 }
 
 .shop_slogan_wrap {
-padding: 10px 0;
+  padding: 10px 0;
 }
 
 .gifanime {
-padding: 10px 0;
+  padding: 10px 0;
 }
-
