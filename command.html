@@ -18,16 +18,17 @@
 <body>
 
   <!-- ============== メイン ============== -->
-  <main id="main">
- <form action="" id="form1">
-    <div>2022年2月11日に世界最高齢に認定された五月山動物園のウォンバットの名前は？<br>（カタカナでご記入ください）</div>
-    <input id="textBox1" type="text" value="" />
-    <input type="button" value="確定" onclick="onButtonClick();" />
-  </form>
-  <div id="output"></div>
-  </main>
+  <div class="form_wrap">
+    <form action="" id="form1">
+      <div class="question">2022年2月11日に世界最高齢に認定された五月山動物園のウォンバットの名前は？<br>（カタカナでご記入ください）</div>
+      <input id="textBox1" type="text" value="" />
+      <input type="button" value="確定" onclick="onButtonClick();" />
+    </form>
 
- <!--==============JQuery読み込み===============-->
+    <div id="output" class="output_text"></div>
+  </div>
+
+  <!--==============JQuery読み込み===============-->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <!--LoadingJQ_リンク先は必ず変更すること-->
