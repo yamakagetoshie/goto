@@ -80,7 +80,7 @@ section {
 
 ul {
   list-style: none;
-padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 
 
@@ -90,19 +90,19 @@ padding-inline-start: 0px;
   margin-left: 30px;
 }
 
-.news_ul li:last-child{
+.news_ul li:last-child {
   margin-right: 30px;
 }
 
 @media screen and (max-width:1280px) {
 
   ul {
-padding-inline-start: 30px;
-}
+    padding-inline-start: 30px;
+  }
 
-.news_ul li:last-child{
-  margin-right: -5px;
-}
+  .news_ul li:last-child {
+    margin-right: -5px;
+  }
 
 }
 
@@ -135,7 +135,7 @@ padding-inline-start: 30px;
 
 a {
   text-decoration: none;
-color: #000;
+  color: #000;
 }
 
 .news_date {
@@ -189,7 +189,7 @@ color: #000;
   font-size: 12px;
   width: 100%;
   text-align: center;
-color: red;
+  color: red;
 }
 
 /*========= sections menu =========*/
@@ -551,7 +551,7 @@ small {
 }
 
 .command {
-color: #00FF00;
-display: block;
-padding-bottom:10px;
+  color: #00FF00;
+  display: block;
+  padding-bottom: 10px;
 }

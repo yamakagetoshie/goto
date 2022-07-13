@@ -50,9 +50,10 @@ ul {
 
 //ここだけmax-width: 1024pxではないので注意！
 @media screen and (max-width: 768px) {
-/* 768pxまでの幅の場合に適応される */
-    .admin_table_wrap table{
-width: 100%;
-}
+
+    /* 768pxまでの幅の場合に適応される */
+    .admin_table_wrap table {
+        width: 100%;
+    }
 
 }

@@ -37,14 +37,15 @@ table {
 }
 
 @media screen and (max-width: 1024px) {
-/* 768pxまでの幅の場合に適応される */
-    .marquee_style {
-  width: 100%;
-}
 
-.counter_table {
-  font-size: 1.0rem;
-}
+  /* 768pxまでの幅の場合に適応される */
+  .marquee_style {
+    width: 100%;
+  }
+
+  .counter_table {
+    font-size: 1.0rem;
+  }
 }
 
 /* *********** header *************** */
@@ -54,11 +55,13 @@ header {
   margin: auto;
 
 }
+
 @media screen and (max-width: 1024px) {
-/* 768pxまでの幅の場合に適応される */
-     header {
-        width: 100%;
-    }
+
+  /* 768pxまでの幅の場合に適応される */
+  header {
+    width: 100%;
+  }
 }
 
 /* navとlist and hover共通設定 */
@@ -127,10 +130,11 @@ a:hover {
 }
 
 @media screen and (max-width: 1024px) {
-/* 768pxまでの幅の場合に適応される */
-     .navigation_style a {
-        font-size: 0.9rem;
-    }
+
+  /* 768pxまでの幅の場合に適応される */
+  .navigation_style a {
+    font-size: 0.9rem;
+  }
 }
 
 
@@ -204,7 +208,7 @@ clear: both;
 
 .topics_inner li:nth-of-type(1) a:after {
   content: "NEW!";
-position: absolute;
+  position: absolute;
   top: 0;
   left: 35%;
   font-size: 12px;
@@ -232,22 +236,23 @@ position: absolute;
 }
 
 @media screen and (max-width: 1024px) {
-/* 768pxまでの幅の場合に適応される */
-    .footer_nav ul {
-  padding: 0;
-width: 100%;
-}
 
-.footer_nav ul li {
-border-right: 0px;
-  border-bottom: 1px solid #ddd;
-padding-bottom: 5px;
+  /* 768pxまでの幅の場合に適応される */
+  .footer_nav ul {
+    padding: 0;
+    width: 100%;
+  }
 
-}
+  .footer_nav ul li {
+    border-right: 0px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
 
-.footer_nav ul li a {
- text-decoration: none;
-}
+  }
+
+  .footer_nav ul li a {
+    text-decoration: none;
+  }
 
 }
 
