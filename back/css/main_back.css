@@ -202,11 +202,11 @@ clear: both;
   position: relative;
 }
 
-.topics_inner li:nth-of-type(1) a:before {
+.topics_inner li:nth-of-type(1) a:after {
   content: "NEW!";
-  position: absolute;
+position: absolute;
   top: 0;
-  left: 33%;
+  left: 35%;
   font-size: 12px;
   color: #fff;
 }

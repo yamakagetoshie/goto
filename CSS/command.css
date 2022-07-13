@@ -1,13 +1,41 @@
 @charset "utf-8";
 
+body {
+background-image: url(../image/6510fcf6-b266-42ba-9878-e4dd9ab9113d.gif);
+background-repeat: no-repeat;
+background-position:bottom; 
+background-size: cover;
+
+
+}
+
+#textBox1 {
+height: 30px;
+}
+
+#form1 {
+padding: 20px 0;
+}
+
 .form_wrap {
-    text-align: center;
+text-align: center;
+padding-top: 10%;
+background-color: #fff;
+opacity: 0.8;
+
 }
 
 .question {
-    margin: 50px 0; //仮
+font-size: 1.5rem;
+margin: 50px 0;
+background-color: #fff;
+
 }
 
 .output_text {
-    
+padding-top: 30px;
+font-size: 1.2rem; 
+background-color: #fff;
+opacity: 0.7;
+padding: 20px 0;
 }
