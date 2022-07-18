@@ -3,15 +3,15 @@
 var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0;
     if (windowwidth > 768){
       var responsiveImage = [//PC用の画像　数とURLは変更する
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_01.jpg'},
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_02.jpg'},
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_03.jpg'}
+        { src: './image/3869146L.jpg'},
+        { src: './image/23285703L.jpg'},
+        { src: './image/24432513L.jpg'}
       ];
     } else {
       var responsiveImage = [//タブレットサイズ（768px）以下用の画像　数とURLは変更する
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_sp_01.jpg' },
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_sp_02.jpg' },
-        { src: 'https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/6-1-3/img/img_sp_03.jpg' }
+        { src: './image/4173251L.jpg' },
+        { src: './image/23010763L.jpg' },
+        { src: './image/2896119L.jpg' }
       ];
     }
 

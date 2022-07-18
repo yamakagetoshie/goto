@@ -319,7 +319,7 @@ a {
 
 .menu_wrap_li_image img {
   width: 100%;
-  height: auto;
+  height: auto;    
 }
 
 .menu_wrap_li_name {
@@ -350,7 +350,7 @@ a {
 
 /*menuのメニュー名画像　70％以下でもよいかも*/
 .menu_wrap_li_name img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
