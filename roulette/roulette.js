@@ -12,14 +12,14 @@ var radius = 200	//元は100
 var data = [{
     name: "ルーローファン",
     text: "ルーローファンルーローファンルーローファンルーローファンルーローファンルーローファンルーローファン",
-    target: "https://placehold.jp/3d4070/ffffff/1000x667.png",
+    target: "../image/24432513L.jpg",
     color: '#93FFAB',
     weight: 1
 },
 {
-    name: "牛肉麺",
-    text: "牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺牛肉麺",
-    target: "https://placehold.jp/f0147e/ffffff/1000x667.png",
+    name: "水餃子",
+    text: "水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子水餃子",
+    target: "../image/2896119L.jpg",
     color: '#E4FF8D',
     weight: 1
 },
@@ -31,22 +31,22 @@ var data = [{
     weight: 1
 },
 {
-    name: "大きなチキン",
-    text: "大きなチキン大きなチキン大きなチキン大きなチキン大きなチキン",
-    target: "https://placehold.jp/14f040/ffffff/1000x667.png",
+    name: "大きいカラアゲ",
+    text: "大きいカラアゲ大きいカラアゲ大きいカラアゲ大きいカラアゲ大きいカラアゲ",
+    target: "../image/23010763L.jpg",
     color: '#C299FF',
     weight: 1
 },
 {
-    name: "大根餅",
-    text: "大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅大根餅",
-    target: "https://placehold.jp/f3eb12/ffffff/1000x667.png",
+    name: "季節の野菜炒め",
+    text: "季節の野菜炒め季節の野菜炒め季節の野菜炒め季節の野菜炒め季節の野菜炒め季節の野菜炒め季節の野菜炒め",
+    target: "../image/4797852L.jpg",
     color: '#FF97C2',
     weight: 1
 },
 {
-    name: "ピータン",
-    text: "ピータンピータンピータンピータンピータンピータンピータンピータンピータンピータンピータンピータン",
+    name: "台湾ソーセージ",
+    text: "台湾ソーセージ台湾ソーセージ台湾ソーセージ台湾ソーセージ台湾ソーセージ台湾ソーセージ台湾ソーセージ台湾ソーセージ台湾ソーセージ台湾ソーセージ台湾ソーセージ",
     target: "https://placehold.jp/f32812/ffffff/1000x667.png",
     color: '#FF9872',
     weight: 1
