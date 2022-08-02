@@ -40,10 +40,6 @@ section {
   padding: 100px 30px;
 }
 
-< !--section:nth-child(2n)「偶数sectionの背景に色付け」が不要であれば削除する-->section:nth-child(2n) {
-  background: #f3f3f3;
-}
-
 .news_ul {
   display: flex;
   justify-content: center;
@@ -110,7 +106,6 @@ ul {
 
   .news_ul li {
     width: 100%;
-    //margin-left: -30px;
     font-size: 1.5rem;
   }
 
