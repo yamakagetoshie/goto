@@ -71,7 +71,7 @@
       <div id="topics">
         <h2 class="section_title">Topics</h2>
         <ul class="news_ul">
-          <!-- newsモジュール1 -->
+          <!--  Twitter埋め込みを使用しない場合はこちら
           <li>
             <a class="news_li"
               href="https://twitter.com/satsukiyama_zoo/status/1542475461628133376?cxt=HHwWgIDQ0dHQ_OcqAAAA">
@@ -82,15 +82,13 @@
                   30
                 </div>
                 <div class="news_imagetext">
-                  <!--<img src="https://placehold.jp/660x520.png" class="news_image" alt="news1">-->
+                  <img src="https://placehold.jp/660x520.png" class="news_image" alt="news1">
                   <div class="news_text">モルモットによるとうもろこしの皮の奪い合い<br>仲良く食べてね!
                   </div>
                 </div>
               </div>
             </a>
           </li>
-          <!-- newsモジュール1 -->
-          <!-- newsモジュール2 -->
           <li>
             <a class="news_li" href="XXX">
               <div class="news_date">
@@ -100,15 +98,13 @@
                   14
                 </div>
                 <div class="news_imagetext">
-                  <!--<img src="https://placehold.jp/660x520.png" class="news_image" alt="news2">-->
+                  <img src="https://placehold.jp/660x520.png" class="news_image" alt="news2">
                   <div class="news_text">"テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。2"
                   </div>
                 </div>
               </div>
             </a>
           </li>
-          <!-- /newsモジュール2 -->
-          <!-- newsモジュール3 -->
           <li>
             <a class="news_li" href="XXX">
               <div class="news_date">
@@ -118,14 +114,23 @@
                   14
                 </div>
                 <div class="news_imagetext">
-                  <!--<img src="https://placehold.jp/660x520.png" class="news_image" alt="news3">-->
+                  <img src="https://placehold.jp/660x520.png" class="news_image" alt="news3">
                   <div class="news_text">"テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。3"
                   </div>
                 </div>
               </div>
             </a>
           </li>
-          <!-- newsモジュール3 -->
+         -->
+
+          <!-- Twitter埋め込み -->
+          <div class="news_ul">
+            <a class="twitter-timeline" data-width="900" data-height="600"
+              data-chrome="noscrollbar,noheader,nofooter,noborders,transparent" data-theme="light"
+              data-chrome="transparent" data-chrome="noborders" data-chrome="nofooter"
+              href="https://twitter.com/satsukiyama_zoo?ref_src=twsrc%5Etfw">Tweets by satsukiyama_zoo</a>
+          </div>
+
         </ul>
       </div>
     </section>
@@ -381,6 +386,8 @@
   <script src="js/hamburger_nav.js"></script>
   <!--ページトップリンクJQ-->
   <script src="js/pagetoplink.js"></script>
+  <!--TwitterJQ-->
+  <script async src="https://platform.twitter.com/widgets.js"></script>
   <!--スライドショーJQ-->
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="js/slideshow.js"></script>
